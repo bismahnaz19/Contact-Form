@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+</head>
+<body>
+    <table border="1px">
+        <th colspan="2">Pizza shop</th>
+        <tr>
+            <td> 
+                <label for="Name">Name </label>
+            </td>
+            <td>
+             <input type="text" name="Name" id="Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pizza Topping
+            </td>
+            <td>
+                <input type="radio" name="pizza-topping" id="Supreme" value="Supreme">
+                <label for="Supreme">Supreme</label><br>
+                <input type="radio" name="pizza-topping" id="Vegetarian" value="Vegetarian">
+                <label for="Vegetarian">Vegetarian</label><br>
+                <input type="radio" name="pizza-topping" id="Hawalian" value="Hawalian">
+                <label for="Hawalian">Hawalian</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pizza Souce
+            </td>
+            <td>
+                <select name="Pizza-Souce" id="Pizza-Souce">
+                    <option value="Spicy-Red-Sauce">Spicy Red Sauce</option>
+                    <option value="BBQ-Sauce">BBQ Sauce</option>
+                    <option value="Buffalo-Sauce">Buffalo Sauce</option>
+                    <option value="Alfredo-Sauce">Alfredo Sauce</option>
+                    <option value="Pesto-Sauce">Pesto Sauce</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Optional Extras
+            </td>
+            <td>
+            <input type="checkbox" name="Optional-Extras" id="Extra-Cheese">
+            <label for="Extra-Cheese">Extra Cheese</label>
+            <input type="checkbox" name="Optional-Extras" id="Glutan-free-base">
+            <label for="Glutan-free-base">Glutan free base</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Delivery Instruction: 
+                <br>
+                <textarea name="Delivery-Instruction" rows="4" cols="30"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">  
+            <input type="button" value="Send-My-Order">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
